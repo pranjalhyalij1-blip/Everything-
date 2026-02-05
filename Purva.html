@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Love ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="music/song.mp3" type="audio/mpeg">
+</audio>
+
+<div id="home" class="page active">
+  <div class="circle">💌</div>
+
+  <div class="buttons">
+    <button onclick="showPage('memories')">Memories</button>
+    <button onclick="showPage('dates')">Dates</button>
+    <button onclick="showPage('letter')">Love Letter</button>
+    <button onclick="showPage('surprise')">Surprise</button>
+  </div>
+
+  <button class="start-btn" onclick="startLove()">❤️ Start ❤️</button>
+</div>
+
+<div id="memories" class="page">
+  <h2>Our Memories 📸</h2>
+  <img src="images/pic1.jpg">
+  <img src="images/pic2.jpg">
+  <button onclick="goHome()">⬅ Back</button>
+</div>
+
+<div id="dates" class="page">
+  <h2>Special Dates 📅</h2>
+  <p>❤️ First Meet – 12 Jan 2024</p>
+  <p>💍 Proposal – 14 Feb 2024</p>
+  <button onclick="goHome()">⬅ Back</button>
+</div>
+
+<div id="letter" class="page">
+  <h2>Love Letter 💌</h2>
+  <p>
+    You are my today, tomorrow and forever ❤️
+  </p>
+  <button onclick="goHome()">⬅ Back</button>
+</div>
+
+<div id="surprise" class="page">
+  <h2>Surprise 🎁</h2>
+  <p>I Love You ❤️🥺</p>
+  <button onclick="goHome()">⬅ Back</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
