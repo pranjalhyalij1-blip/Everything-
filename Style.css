@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.page {
+  display: none;
+  padding-top: 100px;
+}
+
+.active {
+  display: block;
+}
+
+.circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  font-size: 60px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background: #ff4f75;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.start-btn {
+  margin-top: 40px;
+}
+
+img {
+  width: 120px;
+  margin: 10px;
+  border-radius: 10px;
+}
